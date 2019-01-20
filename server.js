@@ -6,7 +6,7 @@ const port = 3000;
 const server = http.createServer((req, res)=> {
     res.statusCode = 200; //ok
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello from Bhavna Pulliahgari\n Student Id: 300931671\n');
+    res.end('Hello from Bhavna Pulliahgari\nStudent Id: 300931671\nCOMP308-W2019-SECTION-004');
 });
 
 server.listen(port, hostname, () => {
